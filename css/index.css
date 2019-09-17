@@ -376,7 +376,7 @@ width: 4.6rem;
 /*zgm3*/
 .zgm3 {
   width: 7.5rem;
-  padding-bottom: .8rem;
+  padding-bottom: .6rem;
   background: url(../images/m22.jpg) repeat-y center top;
   -webkit-background-size: 7.5rem;
   background-size: 7.5rem;
@@ -392,7 +392,7 @@ width: 4.6rem;
 }
 .zgm3 .con3{
   background: #780707;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.4rem;
 }
 .zgm3 .m3_p{
   width: 7.1rem;
@@ -418,9 +418,9 @@ width: 4.6rem;
 .form{
   width: 5.76rem;
   height: 4.46rem;
-  padding-top: 0.4rem;
+  padding-top: 0.2rem;
   margin: auto;
-  margin-top: 0.2rem;
+  margin-top: 0.4rem;
   border-radius: 5%;
   -webkit-background-size: 5.76rem;
   background-size: 5.76rem; 
@@ -443,17 +443,23 @@ width: 4.6rem;
 }
 .form ol li:nth-child(1) span{
   width: 0.32rem;
-  background: url(../images/ren.png) no-repeat center;
+  background: url(../images/fb.png) no-repeat center;
   -webkit-background-size: .32rem;
   background-size: .32rem; 
 }
 .form ol li:nth-child(2) span{
+  width: 0.32rem;
+  background: url(../images/ren.png) no-repeat center;
+  -webkit-background-size: .32rem;
+  background-size: .32rem; 
+}
+.form ol li:nth-child(3) span{
   width: 0.38rem;
   background: url(../images/dh.png) no-repeat center;
   -webkit-background-size: .38rem;
   background-size: .38rem; 
 }
-.form ol li:nth-child(3) span{
+.form ol li:nth-child(4) span{
   width: 0.37rem;
   background: url(../images/yz.png) no-repeat center;
   -webkit-background-size: .37rem;
@@ -482,7 +488,7 @@ input{
     width: 4.8rem;
     height: .7rem;
     margin: auto;
-    margin-top: 0.3rem;
+    margin-top: 0.2rem;
     display: block;
     font-size: .3rem;
     font-weight: 800;
@@ -510,8 +516,8 @@ select{
 /*  margin-left: 1.3rem;*/
   float: left;
   background: url(../images/drap.png)no-repeat center right .06rem;
-  -webkit-background-size: .18rem;
-  background-size: .18rem;
+  -webkit-background-size: .36rem;
+  background-size: .36rem;
 }
 /*placeholder样式*/
 .form input::-webkit-input-placeholder { /* WebKit browsers */
@@ -648,4 +654,44 @@ select{
   background-size:1.91rem;
   margin-top: -0.35rem;
   order: 1;
+}
+/*zgm5*/
+.zgm5 {
+  width: 7.5rem;
+  padding-bottom: .6rem;
+  background: url(../images/m22.jpg) repeat-y center top;
+  -webkit-background-size: 7.5rem;
+  background-size: 7.5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.zgm5 .con5{
+  width: 7.5rem;
+  background: url(../images/m1.jpg) repeat-y center top;
+  -webkit-background-size: 7.5rem;
+  background-size: 7.5rem;
+  padding-bottom: 0.45rem;
+}
+.zgm5 h2{
+  font: 400 .34rem/1rem "microsoft yahei";
+  color: #f4e4c4;
+  text-align: center;
+  /* margin-bottom: 0.15rem; */
+}
+.zgm5 li{
+  margin-right: 0.2rem;
+}
+.zgm5 img{
+  width: 3.12rem;
+  height: 2.13rem;
+}
+.zgm5 .bd{
+  display: flex;
+  justify-content: center;
+}
+.zgm5 .hd .prev{
+  left: 0;
+}
+.zgm5 .hd .next{
+  right: 0;
 }

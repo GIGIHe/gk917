@@ -18,6 +18,7 @@ $(function(){
 	 // 利用注册登录功能实现
 	$('#dosubmit').click(function(){
 		var info = {};
+		info.fb=$('#fzx').val()
 		info.name=$('#name').val()
 		info.tel=$('#tel').val()
 		info.yzm=$('#yzm').val()
@@ -28,6 +29,10 @@ $(function(){
 		var reg = /^0?1[3465789]\d{9}$/; //手机号正则
 		if(!reg.test(info.tel)) { //验证手机号是否正确
 			alert('请填写正确的手机号!');
+			return false;
+        }
+        if(info.fb == '' || info.fb == '分部') { //验证手机号是否为空
+			alert('请选择分部');
 			return false;
 		}
 		$.ajax({
@@ -44,6 +49,10 @@ $(function(){
 					$('#daojishi').hide();
 				}else if(json.status==-2){
 					alert("验证码错误");
+					$('#getyzm').show();
+					$('#daojishi').hide();
+				}else if(json.status==-1){
+					alert("已预约");
 					$('#getyzm').show();
 					$('#daojishi').hide();
 				}
