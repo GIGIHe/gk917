@@ -152,6 +152,7 @@ header.fixed {
   z-index: 9;
   animation: rtate2 4s infinite;
   backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
 }
 .zgm1 .m1_ul li div{
   width: 2.48rem;
@@ -162,19 +163,20 @@ header.fixed {
   z-index:6;
   animation: rtate1 4s infinite;
   backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
 }
 @keyframes rtate1{
   from{
-    transform: rotateY(180deg)
+    transform: rotateY(0deg)
   }to{
-    transform: rotateY(360deg)
+    transform: rotateY(180deg)
   }
 }
 @keyframes rtate2{
   from{
-    transform: rotateY(360deg)
-  }to{
     transform: rotateY(180deg)
+  }to{
+    transform: rotateY(360deg)
   }
 }
 .zgm1 .m1_ul li:nth-child(1) div{
