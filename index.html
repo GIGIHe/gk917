@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+    <meta name="description" content="">
+    <meta name="Keywords" content="">
+    <title></title>
+    <!-- 移动端地域标签 -->
+    <meta name="location" content="province=北京;city=北京">
+    <meta name="applicable-device" content="mobile">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="canonical" href="">
+    <!-- 移动端地域标签 -->
+    <link rel="stylesheet" href="css/index.css?v1">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js?v1"></script>
+    <script src="js/ajax.js"></script>
+    <script type="text/javascript">
+        function browserRedirect() {
+            var sUserAgent = navigator.userAgent.toLowerCase();  
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
+            if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {  
+            } 
+            else{
+                // window.location.href = 'http://bj.offcn.com/zg/19xdgkc/';
+            }
+        }  
+        browserRedirect();
+    </script>
+    <script>
+        function pgScale(){
+            var deviceWidth = document.documentElement.clientWidth;
+            if(deviceWidth > 750) deviceWidth = 750;
+            document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+        }
+        pgScale();
+        window.onresize=pgScale;
+    </script>
+<!-- <script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script> -->
+</head>
+<body style="overflow-x: hidden;">
+
+<div class="zg-wrap">
+
+    <!-- header -->
+    <header class="fixed navbar">
+        <a href="http://m.bj.offcn.com/" target="_blank" class="logo">
+            <img src="./images/mzglogo.png" alt="">中公教育
+        </a>
+        <a href="http://m.bj.offcn.com/zg/wap/address.html" target="_blank" class="zgfb">
+            <img src="./images/fb.png" alt="">分部地址
+        </a>
+    </header>
+    <!-- m_banner -->
+    <div class="mban">
+        <h1 class="">国庆高效学习训练营</h1>
+    </div>
+    <!-- zgm1 -->
+    <div class="zgm1">
+        <h2></h2>
+        <ul class="m1_ul">
+            <li>
+                <div class="rotate">
+                    <p>行测知识点讲解、能力训练、典型例题、巩固提升四位一体，申论从短句阅读、片段阅读到整篇阅读，梯度提升阅读能力。</p>
+                </div>
+                <img src="./images/1.png" alt="">
+            </li>
+            <li>
+               
+                <div class="rotate">
+                    <p>从难以攻克但易提分的知识入手，由浅及深，学懂、学透、学精，课中测评，知水平、明劣势、得方向、抓重点，短时高效提升。</p>
+                </div>
+                <img src="./images/2.png" alt="">
+            </li>
+            <li>
+                
+                <div class="rotate">
+                    <p>专业研发，核心考点覆盖，贴合历年大纲，把握考试趋势，专业师资细致授课，强化思维、以题促学，更有神秘大咖在线点评。</p>
+                </div>
+                <img src="./images/3.png" alt="">
+            </li>
+        </ul>
+        <a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" target="_blank" rel="nofollow">
+            <img src="./images/zx.png" alt="">
+        </a>
+    </div>
+    <!-- zgm2 -->
+    <div class="zgm2">
+        <h2></h2>
+        <div class="h22">国庆高效学习训练营</div>
+        <div class="con2">
+            <div class="con2_l">
+                <p></p>
+                <p></p>
+            </div>
+            <div class="con2_r">
+                <div class="r_top">
+                    <div class="rfl">
+                        <span></span>
+                        <p>
+                            提取理论知识中精华的内容，配合讲解专项实时练习，知识点细致剖析，随讲随练，帮助考生在掌握重要知识点的基础上灵活运用解题方法。
+                        </p>
+                    </div>
+                    <div class="rfr">
+                        <span></span>
+                        <p>
+                            系统讲解所有知识点，梳理理论框架和各题型的解题技巧，巩固强化答题思路，讲练结合，分类训练、逐一突破,查缺补漏,解决自身个性化问题。
+                        </p>
+                    </div>
+                </div>
+                <div class="r_top">
+                    <table class="table">
+                        <tr>
+                            <th>课时</th>
+                            <th>课程设置</th>
+                            <th>上课时间</th>
+                            <th>学费</th>
+                        </tr>
+                        <tr>
+                            <td><b>三天两晚</b></td>
+                            <td>行测文+行测理+申论（测评+讲解+随堂测验+大咖点拨）</td>
+                            <td>10月1日-10月3日</td>
+                            <td class="more-td">
+                                <p>
+                                    <del>原价1999元</del><br>
+                                    <span>国庆一折优惠</span>
+                                </p>	
+                                <a onclick="NTKF.im_openInPageChat('kf_10353_1536732545828')">
+                                   <img src="images/zx_1.png">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>三天两晚</b></td>
+                            <td>行测文+行测理+申论（测评+讲解+随堂测验+大咖点拨）</td>
+                            <td>10月4日-10月6日</td>
+                            <td class="more-td">
+                                <p>
+                                    <del>原价1999元</del><br>
+                                    <span>国庆一折优惠</span>
+                                </p>	
+                                <a onclick="NTKF.im_openInPageChat('kf_10353_1536732545828')">
+                                   <img src="images/zx_1.png">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="zgm3">
+        <h2>立即预约国庆集训营</h2>
+        <div class="con3">
+            <p class="m3_p">
+                <img src="images/xs.png">
+                <span>三天两晚科学备考，随堂测试，答疑点播， 军事管理，1999元集训营，国庆福利1折优惠仅需199元 ，3人团报99元，5人团报69元，限时抢购</span>
+            </p>
+            <form action="" id="myform" method="post" name="myform" accept-charset="gb2312" class="form form_n">
+						
+                <ol>
+                    <li>
+                        <span></span>
+                      <input type="text" id="name" name="info[name]" placeholder="姓名">
+                   </li>
+                    <li>
+                        <span></span>
+                    <input type="text" id="tel" name="info[tel]" placeholder="手机号">
+                   </li>
+                   <li class="yzm_wrap">
+                        <span></span>
+                       <input type="text" id="yzm" name="info[yzm]" placeholder="验证码">
+                       <a class="DJS" style="" href="javascript:;" id="getyzm">获取验证码</a>
+                       <a href="javascript:;" id="daojishi" class="wyzm" style="display: none;"></a>
+                       <style>
+                           .DJS, .wyzm {
+                                   display: block;
+                                   float: right;
+                                   width: 1.8rem;
+                                   height: .66rem;
+                                   /*background: #487fcf;*/
+                                   /*border-radius:0.06rem;*/
+                                   text-align: center;
+                                   font: 400 .24rem/.66rem "microsoft yahei";
+                                   color: #333333;
+                               }
+                       </style>
+                   </li>
+               </ol>
+               <input type="button" value="预约集训" class="submit" name="dosubmit" id="dosubmit">
+         </form>
+        </div>
+    </div>
+    <div class="zgm4">
+        <h2></h2>
+        <div class="con4">
+            <div class="con_t">
+                <div class="texts"></div>
+                <div class="t-img"></div>
+                <div class="lb">
+                    <div class="picScroll-left">
+                        <div class="hd">
+                                <a class="next"></a>
+                                <a class="prev"></a>
+                        </div>
+                        <div class="bd">
+                            <div class="tempWrap">
+                                <ul class="picList">
+                                <li>
+                                    <div class="pic">
+                                        <img src="images/im1.png">
+                                        <p>中公教育行测讲师</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="images/im2.png">
+                                        <p>中公教育行测讲师</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="images/im3.png">
+                                        <p>中公教育行测讲师</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="images/im1.png">
+                                        <p>中公教育行测讲师</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="images/im2.png">
+                                        <p>中公教育行测讲师</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic">
+                                        <img src="images/im3.png">
+                                        <p>中公教育行测讲师</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <script src="./js/jquery.superslide.2.1.1.js"></script>
+            <script type="text/javascript">
+                jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+                </script>
+                </div>
+            </div>
+            <div class="con_b">
+                    <div class="texts"></div>
+                    <div class="t-img"></div>
+                    <div class="lb">
+                        <div class="picScroll-left">
+                            <div class="hd">
+                                    <a class="next"></a>
+                                    <a class="prev"></a>
+                            </div>
+                            <div class="bd">
+                                <div class="tempWrap">
+                                    <ul class="picList">
+                                    <li>
+                                        <div class="pic">
+                                            <img src="images/im4.png">
+                                            <p>中公教育申论讲师</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <img src="images/im5.png">
+                                            <p>中公教育申论讲师</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <img src="images/im6.png">
+                                            <p>中公教育申论讲师</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <img src="images/im4.png">
+                                            <p>中公教育申论讲师</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <img src="images/im5.png">
+                                            <p>中公教育申论讲师</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <img src="images/im6.png">
+                                            <p>中公教育申论讲师</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <script src="./js/jquery.superslide.2.1.1.js"></script>
+                <script type="text/javascript">
+                    jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+                    </script>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- m_address -->
+    <div class="zg_address" style="width: 7.5rem;background:#444;">
+            <iframe src="http://m.bj.offcn.com/zg/address_m/" frameborder="0" scrolling="no" style="width: 7.2rem;height:8.56rem;margin-left: .15rem;"></iframe>
+    </div>
+
+    <!--foot-->
+    <div class="foot">
+        <a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" target="_blank" rel="nofollow"><img src="./images/b11.png" alt="">立即咨询</a>
+        <a href="tel:010-51657188"><img src="./images/b22.png" alt="">010-51657188</a>
+    </div>
+
+</div>
+<script>
+var _hmt = _hmt || [];
+
+(function() {
+
+  var hm = document.createElement("script");
+
+  hm.src = "https://hm.baidu.com/hm.js?dafea501919eb8ebfb740272ece7ba0d";
+
+  var s = document.getElementsByTagName("script")[0]; 
+
+  s.parentNode.insertBefore(hm, s);
+
+})();
+</script>
+<script type="text/javascript" src="http://www.offcn.com/statics/js/bdtj_bj.js"></script>
+<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+<script language="javascript" src="http://www.offcn.com/statics/js/bdtj20161014.js"></script>
+<script type="text/javascript" src="http://bj.offcn.com/statics/js/zgjs/xiaoneng.js"></script>
+</body>
+</html>
